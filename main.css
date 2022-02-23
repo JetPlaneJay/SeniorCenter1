@@ -1,0 +1,62 @@
+.fullBody {
+display: flex;
+flex-direction: column;
+}
+
+.bodySection{
+    display: flex;
+    text-align: center;
+    
+}
+
+@media (max-width: 90rem)   {
+    .bodySection {
+        flex-direction: column;
+        
+        
+    }
+}
+
+
+.bodySection__Right {
+    display: inline-block;
+    text-align: center;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+
+
+.importantInfo {
+    background-color: pink;
+    border-color: red;
+    border-style: inset;
+    box-shadow: 5px 5px 15px 5px #000000;
+    font-size: xx-large;
+    min-width: 10em;
+    margin-right: 3em;
+}
+
+.bottomSection {
+    text-align: center;
+    align-items: center;
+    
+}
+
+img {
+    border-color: red;
+    border-style: inset;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+.finalParagraph {
+
+    background-color: white;
+    color: blue;
+    border-color: red;
+    border-style: inset;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
